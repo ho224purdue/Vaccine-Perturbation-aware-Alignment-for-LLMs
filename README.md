@@ -13,7 +13,7 @@ First install libraries in the root directory listed in `requirements.txt` using
 ```
 pip install -r requirements.txt
 ```
-The package requirements for T-Vaccine is listed in `environment.yml`. Run the following code to install the packages with anaconda.  
+The package requirements for T-Vaccine is listed in `environment.yml` within the directory. Run the following code to install the packages with anaconda.  
 ```
 conda env create -f environment.yml
 ```
