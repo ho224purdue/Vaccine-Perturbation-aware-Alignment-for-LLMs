@@ -9,7 +9,11 @@ Harmful fine-tuning attacks on LLMs poses a serious threat to the online fine-tu
 - Upon running the `test.py` file to ensure that the Llama2-7B model can be loaded, datasets used to train the model would have to be built. Finally, train the acquired models thorugh the bash scripts below.
 
 ## Package requirement
-The package requirement is listed in `environment.yml`. Run the following code to install the packages with anaconda.  
+First install libraries in the root directory listed in `requirements.txt` using `pip`.
+```
+pip install -r requirements.txt
+```
+The package requirements for T-Vaccine is listed in `environment.yml`. Run the following code to install the packages with anaconda.  
 ```
 conda env create -f environment.yml
 ```
